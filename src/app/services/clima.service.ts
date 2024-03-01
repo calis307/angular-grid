@@ -1,4 +1,4 @@
-
+/* 
 
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -29,12 +29,12 @@ export class ClimaService {
     };
   }
 } 
-
+ */
 
 //otra forma de crear el servicio, sin el constructor
 
 
-/* import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -65,4 +65,4 @@ export class ClimaService {
 }
 
 
- */
+
