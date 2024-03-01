@@ -1,0 +1,11 @@
+<section>
+
+    <p>Hola Señor usuario de nombre {{nombreUsuario}}</p>
+    
+    <h3>Lista de usuarios del array</h3>
+    <ul>
+    @for (user of users; track user.id) {
+        <li>{{ user.name }}</li>
+      }
+    </ul>
+    </section>
