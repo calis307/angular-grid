@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 
+
 @Component({
   selector: 'app-clima',
   standalone: true,
@@ -12,10 +13,11 @@ import { FormsModule } from '@angular/forms';
 
 })
 
+
 export class ClimaComponent {
-  urlBase:string = 'https://api.openweathermap.org/data/2.5/weather';
-  api_key:string = '605507acf87117e111e54a3ab5238541';
-  difKelvin:number = 273.15;
+  urlBase = 'https://api.openweathermap.org/data/2.5/weather';
+  api_key = '605507acf87117e111e54a3ab5238541';
+  difKelvin = 273.15;
   datosClima: any = {};
   ciudad: string = ''; // Definición de la propiedad ciudad
 
